@@ -32,7 +32,7 @@ VALUEs
     ('Director of HR', '130000', 7),
     ('HR Coordinator', '75000', 7);
 
-INSERT INTO employee 
+INSERT INTO employee (first_name, last_name, role_id, manager_id )
 VALUES
     ('jimmy', 'Stanley', 1, NULL),
     ('tim', 'Hassan', 2, 1),
