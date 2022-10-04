@@ -1,0 +1,62 @@
+INSERT INTO department (name)
+VALUEs
+    ('Executive'),
+    ('Sales'),
+    ('Engineering'),
+    ('Marketing'),
+    ('Lifestyle'),
+    ('Food and Beverage'),
+    ('Human Resources');
+    
+INSERT INTO role (title, salary, department_id)
+VALUEs  
+    ('President/CEO', '250000', 1),
+    ('Director of Sales', '175000', 2),
+    ('Sales Manager', '100000', 2),
+    ('Salesperson', '80000', 2),
+    ('Director of Engineering', '180000', 3),
+    ('Head Engineer', '125000', 3),
+    ('Engineer', '80000', 3),
+    ('Engineering Intern', '30000', 3),
+    ('Director of Marketing', '125000', 4),
+    ('Marketing Coordinator', '85000', 4),
+    ('Marketing Intern', '30000', 4),
+    ('Director of Lifestyle', '125000', 5),
+    ('Content Creator', '65000', 5),
+    ('Director of F&B', '95000', 6),
+    ('Head Chef', '80000', 6),
+    ('F&B Manager', '70000', 6),
+    ('Cook', '45000', 6),
+    ('Host', '35000', 6),
+    ('Server', '20000', 6),
+    ('Director of HR', '130000', 7),
+    ('HR Coordinator', '75000', 7);
+
+INSERT INTO employee 
+VALUES
+    ('jimmy', 'Stanley', 1, NULL),
+    ('tim', 'Hassan', 2, 1),
+    ('bob', 'Kearney', 3, 2),
+    ('Joe', 'Martinez', 4, 3),
+    ('alex', 'Archer', 4, 3),
+    ('sam', 'Byrd', 5, 1),
+    ('kat', 'Dickens', 6, 5),
+    ('bray', 'Whitehouse', 7, 6),
+    ('jon', 'West', 7, 6),
+    ('mat', 'England', 8, 6),
+    ('sara', 'Snider', 9, 1),
+    ('jay', 'Garza', 10, 9),
+    ('chelsea', 'Moran', 10, 9),
+    ('beth', 'Maddox', 11, 9),
+    ('leo', 'Ball', 12, 1),
+    ('garth', 'Holding', 13, 12),
+    ('larry', 'Morrow', 14, 1),
+    ('max', 'Ashley', 15, 14),
+    ('chad', 'Mcguire', 16, 14),
+    ('brook', 'Cochran', 17, 15),
+    ('fred', 'Frye', 17, 15),
+    ('bill', 'Scott', 18, 16),
+    ('charley', 'Lester', 19, 16),
+    ('brian', 'Sanderson', 19, 16),
+    ('Tabitha', 'Chung', 20, 1),
+    ('Augustus', 'Wills', 21, 20);

@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "employee-tracker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banjosquash/employee-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/banjosquash/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/banjosquash/employee-tracker#readme"
+}
